@@ -1,0 +1,6 @@
+<h1><%= @selected_flat["name"] %></h1>
+<img src=<%= @selected_flat['imageUrl'] %> >
+<p><%= @selected_flat["price"] %><%= @selected_flat["priceCurrency"] %></p>
+<% if @selected_flat["price"].to_i <= 100 %>
+<p style="color: green"><%= "This is a good deal" %></p>
+<% end  %>

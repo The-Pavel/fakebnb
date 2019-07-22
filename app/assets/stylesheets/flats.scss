@@ -1,0 +1,16 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  display: flex;
+  justify-content: center;
+
+  .card {
+    margin: 20px;
+  }
+}
+
+img {
+      height: 100px;
+      width: auto;
+}
